@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Magnifier Glass  */
+.glass {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: crosshair;
+  
+  /* Multiple box shadows to achieve the glass effect */
+  box-shadow:
+    0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25), 
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  
+  /* hide the glass by default */
+  display: none;
+}
+
+/* Magnifier Glass  */
+
+/* Modal Btn  */
+.modal_btn{
+  rotate: 270deg;
+  z-index: 10;
+  position: fixed;
+  bottom: 250px;
+  right: -36px;
+}
+/* Modal Btn  */
+
+/* Social Icon  */
+.social_icon{
+  z-index: 10;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #4DC247;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.social_icon:hover{
+  box-shadow: 1px 1px 10px 3px black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.buttons button {
+  width: 36%;
+  padding: 10px;
+  border-radius: 20px;
+}
+/* Navbar  */
+.header{
+    background: #7bb5f3;
+}
+
+.header .row {
+  --bs-gutter-x: 0;
+}
+
+/* Navbar  */
+
+/* About  */
+.about_img {
+  height: 100vh;
+  width: 100%;
+}
+/* About  */
+
+/* Amenities  */
+.amenities .container-fluid {
+  padding: 0;
+}
+
+.amenities .container-fluid .row {
+  --bs-gutter-x: 0;
+}
+
+.amenities_bg {
+  background-color: #7bb5f3;
+}
+
+.amenities .list-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amenities .list-container ul {
+  padding: 20px;
+  font-size: 20px;
+}
+/* Amenities  */
+
+/* New Site Plan */
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.plan .plan_img {
+  width: 50%;
+}
+
+/* New Site Plan */
+
+/* New Site Plan */
+
+.feature {
+  background: url(/Images/features.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.feature_content{
+    background: linear-gradient(rgba(136, 168, 98,0.7),rgba(136, 168, 98, 0.7));
+    height: 100vh;
+    color: white;
+}
+/* New Site Plan */
+
+/* Gallery */
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #7bb5f3;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #7bb5f3;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7bb5f3;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #7bb5f3;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/* Gallery */
+
+/* Important Links  */
+.important_link{
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+.important_link .row li{
+  list-style: none;
+}
+.important_link .row li a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Important Links  */
+/*  Footer  */
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.footer p a{
+  text-decoration: none;
+  color: white;
+}
+/*  Footer  */
+
+/* Page Head  */
+.page_head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/features.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+/* Page Head  */
+
+/* About Page  */
+.about_container .card{
+  margin-right: 10px;
+  border: none;
+}
+h1 span{
+  color: #7bb5f3;
+}
+
+.about_container .card:hover, .about_container .card:hover .about_icon{
+  color: white;
+  background-color: #7bb5f3;
+}
+.about_icon{
+  padding-top: 20px;
+  font-size: 5rem;
+  color: #7bb5f3;
+}
+
+/* About Page  */
+
